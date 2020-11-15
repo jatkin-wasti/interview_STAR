@@ -110,9 +110,38 @@
  
 
 ## Python
+**What are the four pillars of OOP?**
+- Abstraction: Reduces complexity by showing only what's necessary of an object to other parts of your program, and
+ isolates impact of changes
+- Encapsulation: Reduces access and increases reusability by wrapping up data (class variables) and functionality
+ (methods) together into a single place
+- Inheritance: Eliminates redundant code as an object can acquire the properties of another (super) object. Allowing
+ us to reuse, customise and enhance existing code
+- Polymorphism: Refactor code to process objects differently depending on their data type 
+or class
+- S:
+- T:
+- A:
+- R:
+
+**What is TDD?**
+S: I had to design a calculator program
+T: This had to be well tested and reliably give accurate results
+A: I utilised TDD to design tests with expected values, unexpected values and edge cases 
+R: This gave me a good idea of what I needed to keep in mind while designing the calculator's functionality and
+ resulted in a robust program that successfully met all of the user's requirements
 
 ## DevOps
 **What is DevOps and why should we use it?**
+- Breaks down silos between the Development team and the Operations team, leading to less friction and more
+ productive collaboration to massively increase efficiency
+- Uses CI/CD pipeline to provide quality updates to meet customer needs as quickly as possible
+- Utilises version control to easily identify problems when changes are made and always have stable versions to fall
+ back on
 
 **What is CI/CD**
-
+- CI/CD is the backbone of DevOps operations
+- Continuous Integration: Frequently (many times a day) integrating the developers work together
+- Continuous Delivery: Producing software and testing it in short cycles so that it can be released manually whenever
+ it is needed
+- Continuous Deployment: Similar to Continuous Delivery but with regular automated deployments of the produced software
