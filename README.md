@@ -119,10 +119,13 @@
  us to reuse, customise and enhance existing code
 - Polymorphism: Refactor code to process objects differently depending on their data type 
 or class
-- S:
-- T:
-- A:
-- R:
+- S: In my dissertation I created a simulation of the effects that different agricultural practices had on the
+ nutrient levels in soil
+- T: I chose Java for this, and had to create multiple crops with differing nutrient requirements
+- A: I utilised the OOP aspects of Java to create a crop class that contained all of the functionality and data for a
+ crop, having each crop be an instance of that, or a child class, that can be initialised with different values 
+- R: This ensured my software adhered to the DRY principle as this shared functionality was encapsulated in the Crop
+ class and that specific crops could inherit these attributes and build off them as needed
 
 **What is TDD?**
 S: I had to design a calculator program
