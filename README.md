@@ -128,10 +128,10 @@ or class
  class and that specific crops could inherit these attributes and build off them as needed
 
 **What is TDD?**
-S: I had to design a calculator program
-T: This had to be well tested and reliably give accurate results
-A: I utilised TDD to design tests with expected values, unexpected values and edge cases 
-R: This gave me a good idea of what I needed to keep in mind while designing the calculator's functionality and
+- S: During my training with Sparta, I had to design a calculator program
+- T: This had to be well tested and reliably give accurate results
+- A: I utilised TDD to design tests with expected values, unexpected values and edge cases 
+- R: This gave me a good idea of what I needed to keep in mind while designing the calculator's functionality and
  resulted in a robust program that successfully met all of the user's requirements
 
 ## DevOps
