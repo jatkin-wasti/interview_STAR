@@ -26,11 +26,25 @@
 
 **Agile vs V model vs Waterfall**
 - Waterfall: Series of linear sequential phases where each phase relies on the previous phase. This isn't very
- flexible.
- - V model: Linear phases that are linked to a corresponding test phase. Verification occurs against the requirements
-  and validation occurs against the user needs. 
-  There is no strict
-  requirement to do  
+ flexible or iterative as progress flows down the model. Useful to keep up momentum on a project if employees leave
+, as their understanding and knowledge is preserved in the thorough documentation required. Can be suitable in
+  fields where requirements and technology are fixed and unlikely to change.
+- V model: Linear phases that are linked to a corresponding test phase. Verification occurs against the
+ requirements and validation occurs against the user needs. This helps to avoid the downward flow of defects. Can be
+  used in smaller projects that have clearly defined requirements.
+- Agile: Linear phases in a continuous improvement cycle where each cycle is much shorter than in other models. Can
+ be used in areas where change is expected or on new projects with a suitable team. 
+
+**What are user and epic stories?**
+- User stories are a series of low level requirements or requests from a user's perspective that can be completed in
+ a sprint. Format is "As a [type of user], I want to [action] so that [outcome]."
+- An Epic story is a large body of work that is much larger in scope, usually large enough to not be completable in a 
+single sprint.
+- High level functional and non-functional (technical) requirements from a business user's perspective.
+- These are useful to cover the functionality of a product and in estimating the time and budget required for these 
+large scale features.
+- Can be used when discussing the project with stakeholders as it is more of an overview which will be easier to 
+understand without a technical background.
 ### Scrum
 **What is the difference between Agile and Scrum?**
 - While Agile is a methodology or philosophy, Scrum is a specific framework that can be implemented to manage a
@@ -50,8 +64,6 @@
 **What are sprint reviews?**
 
 **What is a starfish retrospective?**
-
-**What are user and epic stories?**
 
 ## SQL
 
