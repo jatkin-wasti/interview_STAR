@@ -38,34 +38,76 @@
 **What are user and epic stories?**
 - User stories are a series of low level requirements or requests from a user's perspective that can be completed in
  a sprint. Format is "As a [type of user], I want to [action] so that [outcome]."
-- An Epic story is a large body of work that is much larger in scope, usually large enough to not be completable in a 
-single sprint.
-- High level functional and non-functional (technical) requirements from a business user's perspective.
-- These are useful to cover the functionality of a product and in estimating the time and budget required for these 
-large scale features.
-- Can be used when discussing the project with stakeholders as it is more of an overview which will be easier to 
-understand without a technical background.
+- An Epic story is a large body of work that is much larger in scope and covers high level functional and non-functional
+ (technical) requirements from a business user's perspective.
+ 
 ### Scrum
 **What is the difference between Agile and Scrum?**
 - While Agile is a methodology or philosophy, Scrum is a specific framework that can be implemented to manage a
  project in an Agile way.
+ 
 **What are the 3 amigos?**
-- 
+- 3 perspectives to consider when examining an increment of work so that everyone is on the same page, eliminating
+ areas of confusion and misunderstanding early on
+- Business: Expectations from user stories
+- Development: Understanding of requirements and the length of time required to complete that increment
+- Testing: Finding edge cases and thinking about how the test cases match up with the outlined acceptance criteria
+
 **What is a Scrum persona?**
+- Persona's are detailed fictional characters that can be created to identify the needs of the target user base and
+ gain an understanding of which features are important and why
 
 **What are information radiators?**
+- Objects displaying information about a project in a clearly visible location for both the team and others to easily
+ keep up to date. This helps start conversations and fosters team responsibility.
 
 **What are Scrum artifacts?**
+- Product backlog: Ever evolving list of features needed for a product
+- Sprint backlog: List of objectives to complete during this sprint
+- Burndown charts- Graphical representation of remaining work in a given sprint. Updated during daily scrums
 
 **What are Scrum roles?**
+- Scrum Master: Upholds Agile Values and makes sure that everyone involved can do what they need to do
+- Product Owner: Understands customer needs to be able to manage the scrum backlog
+- Development Team: The people doing the work to complete the sprint goals
 
-**What are Scrum events?**
-
-**What are sprint reviews?**
+**What are Scrum ceremonies/events?**
+- Sprint Planning: Deciding what to tackle this sprint. Takes no more hours than double the sprint length in weeks e.g. 2 hours for a 1 week sprint.
+- Daily Scrum: Short standup meeting to get everyone on the same page. What are the team tackling that day, and updating everyone on what happened since the last meeting. Usually less than 15 minutes.
+- Sprint Review: Meeting where the team demo what they've accomplished in the sprint. One hour per sprint week e.g. 3 hour sprint review for a 3 week sprint.
+- Sprint Retrospective: Identifying what went well and what problems arose for that sprint, and how that knowledge can be used going forward. Last no more than 1.5 hours for a 2 week sprint.
 
 **What is a starfish retrospective?**
+- ALlows the team to consider their current approach and what could be done differently
+- What to start doing?
+- What to stop doing?
+- What to continue doing?
+- What to do more of?
+- What to do less of?
 
+**What is root cause analysis?**
+- Methodology of analysing problems to find the main or root cause of that problem. Golden rule for this is to ask
+ why (often this is 5 times) until you get to the underlying cause of the issues so that you know what actions you
+  can take next time.
 ## SQL
+**What is a foreign key?**
+- 
+
+**What are many to many relationships and how do we handle them?**
+- When multiple instances of table A correspond to multiple instances of table B e.g. an author can write multiple
+ books, and each book can be written by multiple authors.
+- S: Creating a relational database for a library
+- T: This involved normalising the database and resolving the M:N relatioship between Authors and Books
+- A: I created a linking table between them which contained foreign keys from both tables
+- R: This made the design more efficient and flexible as there are less potentially unused columns and I didn't have to
+ impose artificial restrictions on the database
+
+**What is DML?**
+- Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE
+
+**What is DDL?**
+- Data Definition Language: CREATE ALTER, DROP, TRUNCATE
+ 
 
 ## Python
 
