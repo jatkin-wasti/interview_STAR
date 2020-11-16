@@ -49,7 +49,7 @@
 - T: We had to organise ourselves as a team in a way to effectively communicate our goals for the week and what needed
   to be accomplished
 - A: We utilised the Scrum framework by having daily standups where we discussed what we were going to achieve in each
-  sprint
+  sprint, as well as a sprint backlog to see the changing progress during the sprint
 - R: Everyone was well informed about what was required of them and how long we had to complete each task which
  reduced misunderstandings and stress
  
