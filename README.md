@@ -45,6 +45,13 @@
 **What is the difference between Agile and Scrum?**
 - While Agile is a methodology or philosophy, Scrum is a specific framework that can be implemented to manage a
  project in an Agile way.
+- S: At Sparta Global we had a lot of work to cover each week in our training
+- T: We had to organise ourselves as a team in a way to effectively communicate our goals for the week and what needed
+  to be accomplished
+- A: We utilised the Scrum framework by having daily standups where we discussed what we were going to achieve in each
+  sprint
+- R: Everyone was well informed about what was required of them and how long we had to complete each task which
+ reduced misunderstandings and stress
  
 **What are the 3 amigos?**
 - 3 perspectives to consider when examining an increment of work so that everyone is on the same page, eliminating
@@ -91,7 +98,7 @@
   can take next time.
 ## SQL
 **What is a foreign key?**
-- 
+- A foreign key is a primary key from another table that is used in the many side of a table relationship
 
 **What are many to many relationships and how do we handle them?**
 - When multiple instances of table A correspond to multiple instances of table B e.g. an author can write multiple
